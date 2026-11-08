@@ -30,7 +30,7 @@
             "status": "Loaded",
             "dist_hub": 130.68,
             "td1_data": {},
-            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing,lane1_prep,lane1_load"
+            "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane1_prep,lane1_load"
         },
         "lane2": {
             "name": "lane2",
@@ -62,7 +62,7 @@
             "status": "Loaded",
             "dist_hub": 69.33,
             "td1_data": {},
-            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing,lane2_prep,lane2_load"
+            "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane2_prep,lane2_load"
         },
         "lane3": {
             "name": "lane3",
@@ -94,7 +94,7 @@
             "status": "Loaded",
             "dist_hub": 72.46,
             "td1_data": {},
-            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing,lane3_prep,lane3_load"
+            "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane3_prep,lane3_load"
         },
         "lane4": {
             "name": "lane4",
@@ -126,7 +126,7 @@
             "status": "Loaded",
             "dist_hub": 133.08,
             "td1_data": {},
-            "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing,lane4_prep,lane4_load"
+            "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane4_prep,lane4_load"
         }
     },
     "system": {
