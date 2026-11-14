@@ -43,7 +43,7 @@
             "map": "T1",
             "load": true,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "PLA",
             "density": 1.19,
@@ -53,13 +53,13 @@
             "remember_spool": false,
             "spool_id": 40,
             "color": "#E72F1D",
-            "weight": 653.8629459454465,
+            "weight": 631.0176358798473,
             "extruder_temp": null,
             "bed_temp": null,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "None",
             "dist_hub": 69.33,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane2_prep,lane2_load"
@@ -75,7 +75,7 @@
             "map": "T2",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "PLA",
             "density": 1.19,
@@ -85,13 +85,13 @@
             "remember_spool": false,
             "spool_id": 35,
             "color": "#E2DEDB",
-            "weight": 602.8071747696889,
+            "weight": 593.1649135980028,
             "extruder_temp": null,
             "bed_temp": null,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "None",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tool Unloading",
             "dist_hub": 72.46,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane3_prep,lane3_load"
@@ -130,13 +130,13 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": "lane3",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane2"
+                "lane_loaded": "lane3"
             }
         },
         "bypass": {
