@@ -91,7 +91,7 @@
             "runout_lane": null,
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": "Tooled",
+            "status": "None",
             "dist_hub": 72.46,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane3_prep,lane3_load"
